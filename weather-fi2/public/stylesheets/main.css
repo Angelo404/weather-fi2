@@ -1,0 +1,89 @@
+body{
+    background-color: yellow;
+}
+
+/* Fonts */
+@font-face{
+    font-family: josefinSlab;
+    src: url('/assets/fonts/josefinSlab-Regular.ttf');
+}
+
+/* menu contents */
+#menu-title {
+    font-size: 250%;
+    font-family: josefinSlab;
+    color: black;
+}
+
+#menu-container{
+    width: auto;
+    border:1px solid red;
+    margin:0 auto;
+    text-align:center;
+}
+
+#menu {
+    font-size: 150%;
+    font-family: josefinSlab;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 15px;
+}
+
+#menu li {
+    display: inline;
+    list-style-type:none;
+    margin:2;
+}
+/* -------------------- */
+
+/* contents */
+#content-title {
+    font-size: 150%;
+    font-family: josefinSlab;
+    color: black;
+}
+
+#container{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: #b0e0e6;
+}
+
+#main-container{
+    width: auto;
+    height: 750px;
+    border:1px solid red;
+    margin:0 auto;
+    text-align:center;
+}
+
+.charts{
+    margin-top: 50px;
+    width: 90%;
+    height 500px;
+    border:1px solid red;
+    margin:50px auto;
+    text-align:center;
+}
+/* -------------------- */
+
+/* Footer */
+#footer-container{
+    width: auto;
+    border:1px solid red;
+    margin:0 auto;
+    text-align:center;
+}
